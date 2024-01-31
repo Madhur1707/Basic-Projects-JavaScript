@@ -4,7 +4,7 @@ const data = [
     name: "Classic Leather Watch",
     price: 55699,
     img: "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/r/a/rado-coupole-r22877025-large.jpg",
-    cat: "dress",
+    cat: "Dress",
   },
   {
     id: 2,
