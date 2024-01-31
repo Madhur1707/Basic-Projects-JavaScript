@@ -2,43 +2,43 @@ const data = [
   {
     id: 1,
     name: "Classic Leather Watch",
-    price: 99.99,
-    img: "https://images.pexels.com/photos/5058216/pexels-photo-5058216.jpeg?auto=compress&cs=tinysrgb&w=400",
+    price: 55699,
+    img: "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/r/a/rado-coupole-r22877025-large.jpg",
     cat: "dress",
   },
   {
     id: 2,
     name: "Sporty Digital Watch",
-    price: 129.99,
-    img: "https://images.pexels.com/photos/5058216/pexels-photo-5058216.jpeg?auto=compress&cs=tinysrgb&w=400",
+    price: 9699,
+    img: "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/t/i/tissot-t-sport-t125-617-33-051-00-22-12-2020-large.jpg",
     cat: "Sport",
   },
   {
     id: 3,
-    name: "Elegant Gold Watch",
-    price: 179.99,
-    img: "https://images.pexels.com/photos/5058216/pexels-photo-5058216.jpeg?auto=compress&cs=tinysrgb&w=400",
+    name: "Elegant  Watch",
+    price: 9899,
+    img: "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw4040368f/images/Titan/Catalog/1811SL01_2.jpg?sw=800&sh=800",
     cat: "Elegant",
   },
   {
     id: 4,
     name: "Fitness Tracker Watch",
-    price: 89.99,
-    img: "https://images.pexels.com/photos/5058216/pexels-photo-5058216.jpeg?auto=compress&cs=tinysrgb&w=400",
+    price: 3099,
+    img: "https://m.media-amazon.com/images/I/411CosYM-FL.jpg",
     cat: "Fitness",
   },
   {
     id: 5,
     name: "Digital Smartwatch",
-    price: 149.99,
-    img: "https://images.pexels.com/photos/5058216/pexels-photo-5058216.jpeg?auto=compress&cs=tinysrgb&w=400",
+    price: 14999,
+    img: "https://m.media-amazon.com/images/I/61ZjlBOp+rL.jpg",
     cat: "Smart",
   },
   {
     id: 6,
     name: "Luxury Diamond Watch",
-    price: 299.99,
-    img: "https://images.pexels.com/photos/5058216/pexels-photo-5058216.jpeg?auto=compress&cs=tinysrgb&w=400",
+    price: 219999,
+    img: "https://i.pinimg.com/736x/57/48/14/574814624951afdfb9f91629f322f536.jpg",
     cat: "Luxury",
   },
 ];
@@ -55,7 +55,7 @@ const displayProducts = (filteredProducts) => {
       return `<div class="product">
       <img src=${product.img} />
       <span class="name">${product.name}</span>
-     <span class="priceText">${product.price}</span>
+     <span class="priceText">Price: ₹ ${product.price}</span>
     </div>`;
     })
     .join("");
@@ -100,4 +100,3 @@ const setCategories = () => {
 };
 
 setCategories();
-
